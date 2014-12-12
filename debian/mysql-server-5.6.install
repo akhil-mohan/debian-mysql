@@ -2,9 +2,11 @@
 #usr/share/mysql/config.medium.ini
 #usr/share/mysql/config.small.ini
 #usr/share/mysql/ndb-config-2-node.ini
-debian/additions/mysqld_safe_syslog.cnf etc/mysql/conf.d/
+debian/additions/mysql.conf.d/mysqld_safe_syslog.cnf etc/mysql/mysql.conf.d/
+debian/additions/mysql.conf.d/mysqld.cnf etc/mysql/mysql.conf.d/
 etc/apparmor.d/usr.sbin.mysqld
 etc/mysql/debian-start
+etc/mysql/mysql.cnf
 usr/bin/msql2mysql
 usr/bin/myisamchk
 usr/bin/myisamlog
